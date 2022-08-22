@@ -7,27 +7,31 @@
   <link rel="stylesheet" href="./css/bootstrap.css">
   <title>Document</title>
 </head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header__container"></div>
-    </div>
-  </header>
-
-  <main class="main">
-    <section class="hero">
-      <div class="container">
-        <div class="hero__container"></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__container"></div>
-    </div>
-  </footer>
-
+<body class="text-center">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Body</th>
+        <th><button class="btn__logout btn btn-danger">Log Out</button></th>
+      </tr>
+    </thead>
+    <tbody class="posts__wrapper">
+      
+    </tbody>
+  </table>
+  
+  
+  <template class="post__template">
+    <tr>
+      <th class="post__id" scope="row">62d6a9c692224ad83e047f95</th>
+      <td class="post__name">Ervin Howell</td>
+      <td class="post__body">Shanna@melissa.tv</td>
+      <td class="post__btn"><button class="post__btn1 btn btn-danger text-white">DELETE</button></td>
+    </tr>
+  </template>
   <script src="./js/bootstrap.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 </html>
